@@ -1,0 +1,154 @@
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 100;
+  src: url("./woff/IRANSansXFaNum-thin.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-thin.woff2") format("woff2");
+}
+.ss02 {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 200;
+  src: url("./woff/IRANSansXFaNum-UltraLight.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-UltraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./woff/IRANSansXFaNum-light.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./woff/IRANSansXFaNum-medium.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 600;
+  src: url("./woff/IRANSansXFaNum-demibold.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-demibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./woff/IRANSansXFaNum-extrabold.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-extrabold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./woff/IRANSansXFaNum-black.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./woff/IRANSansXFaNum-bold.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./woff/IRANSansXFaNum-regular.woff") format("woff"),
+    url("./woff2/IRANSansXFaNum-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  src: url("./yekan-font-master/Yekan.eot"); /* IE9 Compat Modes */
+  src: url("./yekan-font-master/Yekan.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./yekan-font-master/Yekan.woff2") format("woff2"),
+    /* Modern Browsers */ url("./yekan-font-master/Yekan.woff") format("woff"),
+    /* Modern Browsers */ url("./yekan-font-master/Yekan.otf")
+      format("opentype"),
+    /* Open Type Font */ url("./yekan-font-master/Yekan.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+body {
+  font-family: "IRANSansXFaNum", sans-serif;
+}
+.section1 {
+  direction: rtl;
+}
+nav {
+  margin-left: 0rem;
+  margin-right: -7rem;
+}
+.return:hover::after {
+  content: "صفحه  قبل ";
+  font-size: 1.4rem;
+  font-family: "IRANSansXFaNum", sans-serif;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+.ook:hover::after {
+  content: "ادامه";
+  font-family: "IRANSansXFaNum", sans-serif;
+  right: -3rem;
+  font-size: 1.4rem;
+  letter-spacing: normal;
+  padding-bottom: -0.5rem;
+  margin-right: 0.5rem;
+  border-bottom-left-radius: 2rem;
+  background-color: #20c997;
+  color: var(--color-of-white);
+}
+
+.profile:hover::after {
+  content: "پروفایل";
+  font-family: "IRANSansXFaNum", sans-serif;
+}
+.dark:hover::after {
+  content: "حالت شب";
+  font-family: "IRANSansXFaNum", sans-serif;
+  white-space: nowrap;
+  right: -1.3rem;
+}
+.zaban:hover::after {
+  content: "زبان";
+  font-family: "IRANSansXFaNum", sans-serif;
+  /* white-space: nowrap; */
+  left: -1rem;
+}
+.buy:hover::after {
+  content: "سبد خرید";
+  font-family: "IRANSansXFaNum", sans-serif;
+  white-space: nowrap;
+  right: -1.3rem;
+  position: absolute;
+  color: #fff;
+  bottom: -1.4rem;
+  right: -0.7rem;
+  font-size: 1.4rem;
+}
+.after {
+right: 65rem;
+}
+.remove{
+    direction: rtl;
+}
