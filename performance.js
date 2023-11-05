@@ -136,6 +136,7 @@ const realsearch = (event) => {
       item.style.display = "flex";
     } else {
       item.style.display = "none";
+      console.log("hi");
     }
   });
 };
