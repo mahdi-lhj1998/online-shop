@@ -201,3 +201,4 @@ const sortHandeler = (even) => {
 sitems.forEach((item) => {
   item.addEventListener("click", sortHandeler);
 });
+console.log("1");
